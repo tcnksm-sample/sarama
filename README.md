@@ -63,6 +63,18 @@ To execute async-producer,
 $ docker exec -it kafka /work/async-producer/async-producer
 ```
 
+To execute http-log-producer,
+
+```bash
+$ docker exec -it kafka /work/http-log-producer/http-log-producer
+```
+
+And access it (e.g., docker is on boot2docker), 
+
+```bash
+$ curl $(boot2docker ip):8080
+```
+
 ## Author
 
 [Taichi Nakashima](https://github.com/tcnksm)
