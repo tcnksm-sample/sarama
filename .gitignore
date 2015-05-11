@@ -1,3 +1,4 @@
 async-producer/async-producer
 sync-producer/sync-producer
+http-log-producer/http-log-producer
 consumer/consumer
