@@ -23,7 +23,6 @@ func main() {
 	config.Producer.Retry.Max = 5
 	// The level of acknowledgement reliability needed from the broker.
 	config.Producer.RequiredAcks = sarama.WaitForAll
-
 	brokers := []string{"localhost:9092"}
 	producer, err := sarama.NewAsyncProducer(brokers, config)
 	if err != nil {
