@@ -42,7 +42,7 @@ You can run kafka on docker. And you can also run producer & consumer on docker.
 To build docker image of kafka,
 
 ```bash
-$ make build-docker
+$ make docker-build
 ```
 
 To run kafka container, 
